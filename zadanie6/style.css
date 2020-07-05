@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+#content {
+    background-color: rgb(235, 235, 235);
+}
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+[class*="cols-"] {
+    display: inline-block;
+}
+.group {
+    display: none;
+}
+.header {
+	background-color: lightgreen;
+	text-align: center;
+	color: gray;
+}
+.menu { /* Tło menu */
+	background-color: hsl(220, 100%, 50%);
+}
+.menu div { /* divy z pozycjami menu */
+	background-color: hsl(220, 100%, 60%);
+	padding: 12px;
+	margin: 6px;
+}
+.menu div:hover { /* hover na pozycjach menu */
+	background-color: hsl(220, 100%, 70%);
+}
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    .cols-1 {width: 20%;}
+    .cols-2 {width: 40%;}
+    .cols-3 {width: 60%;}
+    .cols-4 {width: 80%;}
+    .cols-5 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 20%;}
+    .col-2 {width: 40%;}
+    .col-3 {width: 60%;}
+    .col-4 {width: 80%;}
+    .col-5 {width: 100%;}
+}
+
+/* Lay2 */
+.lay2 .menu { /* Tło menu */
+    background-color: hsl(150, 100%, 50%);
+}
+.lay2 .menu div { /* divy z pozycjami menu */
+    background-color: hsl(150, 100%, 60%);
+    padding: 12px;
+    margin: 6px;
+}
+.lay2 .menu div:hover { /* hover na pozycjach menu */
+    background-color: hsl(150, 100%, 70%);
+}

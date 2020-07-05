@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+#content {
+    background-color: rgb(235, 235, 235);
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+[class*="cols-"] {
+    display: inline-block;
+}
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    .cols-1 {width: 20%;}
+    .cols-2 {width: 40%;}
+    .cols-3 {width: 60%;}
+    .cols-4 {width: 80%;}
+    .cols-5 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 20%;}
+    .col-2 {width: 40%;}
+    .col-3 {width: 60%;}
+    .col-4 {width: 80%;}
+    .col-5 {width: 100%;}
+}
+
+/* layout podstawowy */
+.header {
+	background-color: hsl(140, 100%, 70%);
+	text-align: center;
+	color: gray;
+}
+.menu {
+	background-color: hsl(220, 100%, 60%);
+}
+.menu div {
+	background-color: hsl(220, 100%, 70%);
+	padding: 12px;
+	margin: 6px;
+}
+.menu div:hover { /* hover na pozycjach menu */
+	background-color: hsl(220, 100%, 80%);
+}
+
+/* layout 2 */
+.lay2 .header {
+	background-color: darkgray;
+}
+.lay2 .menu {
+	background-color: hsl(200, 20%, 60%);
+}
+.lay2 .menu div {
+	background-color: hsl(200, 30%, 70%);
+}
+.lay2 .menu div:hover { /* hover na pozycjach menu */
+	background-color: hsl(200, 40%, 80%);
+}
+
+/* layout 3 */
+.lay3 .header {
+	background-color: hsl(140, 100%, 90%);
+}
+.lay3 .menu {
+	background-color: hsl(220, 40%, 60%);
+}
+.lay3 .menu div {
+	background-color: hsl(220, 40%, 70%);
+}
+.lay3 .menu div:hover { /* hover na pozycjach menu */
+	background-color: hsl(220, 40%, 80%);
+}
+
+/* layout 4 */
+.lay4 #content {
+	background-color: white;
+	border: solid 1px black;
+}
+.lay4 .header {
+	background-color: white;
+	color: black;
+	border: solid 1px black;
+}
+.lay4 .menu {
+	background-color: white;
+	border: solid 1px black;
+}
+.lay4 .menu div {
+	background-color: white;
+}
+.lay4 .menu div:hover { /* hover na pozycjach menu */
+	background-color: white;
+}
+

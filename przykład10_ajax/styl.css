@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+[class*="cols-"] {
+    display: inline-block;
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color: indigo;
+    color: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.menu {
+    background-color: maroon;
+}
+.menu div {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: rgba(255,255,255,0.05);
+    color: #ffffff;
+}
+.menu .el:hover, .menu .hidbutt:hover, .hidbutt:hover {
+    background-color: crimson;
+}
+
+.menu .hidbutt, .hidbutt {
+    background-color: indigo;
+}
+.footer {
+    background-color: indigo;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    margin-top: 15px;
+}
+.gr {
+	display: none;
+}
+
+/*layout 2*/
+
+.lay2 .menu {
+	background-color: khaki;
+    border: solid black 1px;
+}
+
+.lay2 .menu .el:hover, .lay2 .menu .hidbutt:hover, .lay2 .hidbutt:hover {
+	background-color: darkgoldenrod;
+    color: rgb(240,240,240);
+}
+
+.lay2 .menu div {
+    border: solid black 1px;
+    color: black;
+    background-color: rgba(0,0,0,0.05);
+}
+
+.lay2 .footer, .lay2 .header {
+    background-color: darkkhaki;
+}
+.lay2 .menu .hidbutt, .lay2 .hidbutt {
+    background-color: darkkhaki;
+}
+
+/*layout 3*/
+
+.lay3 .menu {
+	background-color: rgb(240,240,240);
+    border: solid black 1px;
+}
+
+.lay3 .menu .el:hover, .lay3 .menu .hidbutt:hover, .lay3 .hidbutt:hover {
+	background-color: rgb(40,40,40);
+    color: rgb(240,240,240);
+}
+
+.lay3 .menu div {
+    border: solid black 1px;
+    color: black;
+    background-color: rgba(0,0,0,0.05);
+}
+
+.lay3 .footer, .lay3 .header {
+	background-color: rgb(40,40,40);
+}
+
+.lay3 .menu .hidbutt, .lay3 .hidbutt {
+	background-color: rgb(160,160,160);
+    color: white;
+}
+
+/*layout 4*/
+
+.lay4 .menu {
+	background-color: white;
+    border: solid black 1px;
+}
+
+.lay4 .menu .el:hover, .lay4 .menu .hidbutt:hover, .lay4 .hidbutt:hover {
+	background-color: black;
+    color: rgb(240,240,240);
+}
+
+.lay4 .menu div {
+    border: solid black 1px;
+    color: black;
+    background-color: rgba(0,0,0,0.01);
+}
+
+.lay4 .footer {
+	background-color: white;
+    color: black;
+    border: solid black 1px;
+}
+
+.lay4 .header {
+	background-color: white;
+    color: black;
+    border: solid black 1px;
+}
+
+.lay4 .menu .hidbutt, .lay4 .hidbutt {
+	background-color: white;
+    color: gray;
+}
+
+
+/* Smartfon: */
+[class*="col-"] {
+    width: 100%;
+}
+/* Tablet: */
+@media only screen and (min-width: 600px) {
+    .cols-1 {width: 20%;}
+    .cols-2 {width: 40%;}
+    .cols-3 {width: 60%;}
+    .cols-4 {width: 80%;}
+    .cols-5 {width: 100%;}
+}
+
+/* Desktop: */
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 20%;}
+    .col-2 {width: 40%;}
+    .col-3 {width: 60%;}
+    .col-4 {width: 80%;}
+    .col-5 {width: 100%;}
+}

@@ -1,0 +1,97 @@
+body {											
+	width: 1444px;
+	margin: 0px;
+}
+#upperMenu {
+	width: 964px;
+	height: 36px;
+	position: sticky;
+	top: 0;
+	left: 240px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#leftMenu {
+	width: 240px;
+	margin-left: 0px;
+	float: left;
+	position: sticky;
+	top: 0;
+}
+#tekst, #table {
+	background-color: red;
+	width: 940px;
+	float: left;
+	background-color: rgb(220, 220, 220);
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 12px;
+	margin-bottom: 48px;
+}
+ol {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	height: 2em;
+	line-height: 2em;
+	text-align: center;
+}
+ol > li {
+	float: left;
+	width: 240px;
+	background-color: rgb(60, 120, 180);
+	margin-left: 1px;
+	height: 2em;
+	position: relative;
+}
+#leftMenu > ol > li {
+	margin-left: 0px;
+}
+ol > li:hover {
+	background-color: rgb(80, 140, 200);
+}
+ol > li:first-child {
+  	margin-left:0;
+}
+ol a {
+  	display:block;
+  	color:#ffffff;
+  	text-decoration:none;
+  	padding:0 5px;
+}
+ol > li > ul {
+  	list-style-type: none;
+  	padding: 0;
+  	margin: 0;
+  	display: none;
+  	position: absolute;
+  	z-index: 1;
+  	width: 240px;
+}
+ol > li:hover > ul {
+	display: block;
+}
+ol > li > ul > li > a {
+  	border-top:1px solid #FFF;
+}
+ol > li > ul > li {
+	background-color: rgb(10, 200, 200);
+}
+ol > li > ul > li:hover {
+	background-color: rgb(30, 220, 220);
+}
+table {
+	width: 50%;
+	border: solid red;
+}
+th, tr, td {
+	border: solid;
+}
+#secondList {
+	list-style-type: decimal;
+	float: none;
+	width: 200px;
+	padding: 
+}
+

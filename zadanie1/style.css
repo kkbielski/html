@@ -1,0 +1,54 @@
+body {
+	background-color: darkgray;
+	color: darkblue;
+	font-size: 24px;
+}
+#logo {
+	background-color: red;
+	color: black;
+}
+.article {
+	color: yellow;
+}
+a:link {
+	text-decoration: none;
+	color: green;
+}
+a:visited {
+	color: red;
+}
+section {
+	background-color: lightblue;
+	color: blue;
+}
+table {
+	color: black;
+	background-color: lightgreen;
+	font-size: 30px;
+	padding: 12px;
+	border-collapse: collapse;
+	border: solid;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+tr, th {
+	border: solid;
+	text-align: left;
+}
+#secondList {
+	background-color: lightgreen;
+}
+#tabela {
+	border-color: red;
+	border-collapse: none;
+	text-align: right;
+}
+#text {
+	width: 20%;
+	background-color: red;
+	text-align: justify;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
